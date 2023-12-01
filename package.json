@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"git": "^0.1.5"
+		"git": "^0.1.5",
+		"mongodb": "^6.3.0"
 	}
 }
