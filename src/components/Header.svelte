@@ -15,13 +15,14 @@
 <style lang="scss">
 	header {
 		width: auto;
-		height: 180px;
+		height: 140px;
 		padding: 0px 20%;
 		border-bottom: 2px solid black;
 		display: grid;
 		grid-template-columns: 1fr auto 1fr;
 		grid-template-rows: auto 30%;
 		align-items: center;
+		background-color: white;
 		.logo {
 			grid-column: 2;
 			text-align: center;
@@ -35,6 +36,15 @@
 			grid-column: 1 / span 3;
 			grid-row: 2;
 			text-align: center;
+			word-spacing: 5px;
+			a {
+				text-decoration: none;
+				color: black;
+				&:hover {
+					color: #959595;
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 </style>
