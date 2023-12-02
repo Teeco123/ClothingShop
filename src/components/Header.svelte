@@ -36,7 +36,7 @@
 			grid-column: 1 / span 3;
 			grid-row: 2;
 			text-align: center;
-			word-spacing: 5px;
+			word-spacing: 10px;
 			a {
 				text-decoration: none;
 				color: black;
